@@ -1,0 +1,159 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffffff;
+    color: #4f4f4f;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#texto p{
+    font-size: 30px;
+}
+
+#logo img{
+    margin: 8%;
+    margin-top: 15%;
+    position: relative;
+    width: 90px;
+    float: center;
+}
+
+.formulario{
+  margin-top: 15%;
+}
+
+.formulario p{
+    font-size: 12px;
+}
+
+#formulario2{
+  vertical-align: middle;
+  position: relative;
+  margin-top: 22%;
+  font-size: 12px;
+}
+
+#formulario2 p{
+  display: block;
+}
+
+#CorTermos{
+    color: #3eb5e1;
+    text-decoration-color: #3eb5e1;
+}
+
+a{
+    display: inline;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+
+.olho{
+    left: 85%;
+    position: absolute;
+    width: 20px;
+    padding-top: 5px;
+}
+
+input{
+    border: none;
+    background-color: white;
+    width: 80%;
+    padding: 1px 8px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: inherit;
+    box-shadow: 0 0 0.3em #808080;
+    border-radius: 12px;
+}
+
+::placeholder{
+    color: #808080;
+}
+
+#termos{
+    color: #000000;
+    border-bottom: 0%;
+    border: none;
+    background-color: white;
+    width: auto;
+    vertical-align: middle;
+}
+
+#button{
+    vertical-align: middle;
+    width: 70%;
+    height: 40px;
+    background-color: #3eb5e1;
+    color: #ffffff;
+    border-bottom-color:none;
+    border-bottom: 0px 0px;
+    border-radius: 12px;
+    border-bottom: 0%;
+    border: none;
+    box-shadow: 0 0 0.3em #2a7d9b;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#button2{
+    vertical-align: middle;
+    width: 70%;
+    height: 55px;
+    background-color: #db4c77;
+    color: #ffffff;
+    border-bottom-color:none;
+    border-bottom: 0px 0px;
+    border-radius: 12px;
+    border-bottom: 0%;
+    border: none;
+    box-shadow: 0 0 0.3em #ac2e54;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#bemVinda{
+    vertical-align: middle;
+    width: 67%;
+    height: 70px;
+    background-color: #db4c77;
+    color: #ffffff;
+    border-bottom-color:none;
+    border-bottom: 0px 0px;
+    border-radius: 12px;
+    border-bottom: 0%;
+    border: none;
+    box-shadow: 0 0 0.3em #ac2e54;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#titulo{
+    width: 100%;
+    height: 40px;
+    color: #db4c77;
+    font-size: 20px;
+    text-align: left;
+}
+
+#mensagemErro{
+  vertical-align: middle;
+  font-size: 12px;
+  color: red;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 95%;
+}
+
+footer p{
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}

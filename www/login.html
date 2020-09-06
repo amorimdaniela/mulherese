@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mulherese.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/inicial.css">
+    
+    <script src="js/mulherese.js"></script>
+    <script src="js/classes.js"></script>
+
+</head>
+
+<body>
+
+    <div id="logo">
+        <img src="img/logo.png" alt="">
+    </div>
+    <div id="formulario2">
+        <p><input type="text" placeholder="E-mail" id="email"></p>
+        <p><img src="img/eye.png" class="olho" id="olho" onclick="mostraSenha();">
+            <input type="password" placeholder="Senha" required id="senha"></p>
+
+        <input type="button" value="Entrar" id="button" onclick="verificarLogin();">
+        <p><a href="cadastro.html" id="CorSenha">Ainda não esta cadastrada? Vem com a gente!</a></p>
+        <input type="button" value="Começar a minha jornada" id="button" onclick="iniciarJornada();">
+        <p><a href="redefinirSenha.html" id="CorSenha">Esqueci minha senha</a></p>
+
+        <div id="mensagemErro" style="display: none;">
+            <p>Verifique email e senha informados.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div id="rodape">
+            <p>Mulhere-se</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="cordova.js"></script>
+
+</body>
+
+</html>
