@@ -194,3 +194,32 @@ footer p{
     height: 23px;
     float:left;
 }
+
+#cabecalhoJornada{
+    padding-right: 70%;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #3eb5e1;
+    color: #ffffff;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+#checkMaterial{
+    color: #000000;
+    border-bottom: 0%;
+    border: none;
+    background-color: white;
+    width: auto;
+    vertical-align: middle;        
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000000;
+}
