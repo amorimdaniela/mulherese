@@ -1,7 +1,7 @@
 //não implemetado o BD!
 
 //Variáveis Globais
-var etapa1 = false; //Descoberta
+var etapa1 = true; //Descoberta
 var etapa2 = false; //Ideação
 var etapa3 = false; //Modalidade
 var etapa4 = false; //Validação
