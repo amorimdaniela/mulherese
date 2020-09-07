@@ -22,7 +22,6 @@ html, body{
 
 .formulario{
   margin-top: 15%;
-  margin-bottom: 30px;
 }
 
 .formulario p{
@@ -113,23 +112,7 @@ input{
     box-shadow: 0 0 0.3em #ac2e54;
     font-weight: bold;
     font-size: 20px;
-}
-
-#bemVinda{
-    vertical-align: middle;
-    width: 67%;
-    height: 70px;
-    background-color: #db4c77;
-    color: #ffffff;
-    border-bottom-color:none;
-    border-bottom: 0px 0px;
-    border-radius: 12px;
-    border-bottom: 0%;
-    border: none;
-    box-shadow: 0 0 0.3em #ac2e54;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
+    padding-top: 500px;
 }
 
 #titulo{
