@@ -22,6 +22,7 @@ html, body{
 
 .formulario{
   margin-top: 15%;
+  margin-bottom: 30px;
 }
 
 .formulario p{
@@ -145,12 +146,12 @@ input{
   color: red;
 }
 
-footer{
+/*footer{
     position: fixed;
     bottom:0;
     left:0;
     width: 95%;
-}
+}*/
 
 footer p{
     text-align: end;
@@ -193,4 +194,33 @@ footer p{
     margin: 3px 25px 0px 25px;
     height: 23px;
     float:left;
+}
+
+#cabecalhoJornada{
+    padding-right: 70%;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #3eb5e1;
+    color: #ffffff;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+#checkMaterial{
+    color: #000000;
+    border-bottom: 0%;
+    border: none;
+    background-color: white;
+    width: auto;
+    vertical-align: middle;        
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000000;
 }
