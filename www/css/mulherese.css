@@ -142,8 +142,8 @@ input{
 
 #mensagemErro{
   vertical-align: middle;
-  font-size: 12px;
-  color: red;
+  font-size: 15px;
+  color: #000000;
 }
 
 footer{
