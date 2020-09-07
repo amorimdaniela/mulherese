@@ -1,11 +1,13 @@
 html, body{
-    margin: 0%;
-    padding: 0%;
     background-color: #ffffff;
     color: #4f4f4f;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #texto p{
@@ -14,13 +16,18 @@ html, body{
 
 #foto{
     background-color: #db4c77;
-    height: 80px;
+    height: 120px;
     width: 150px;
     border-radius: 10px;
     color: white;
-    padding-top: 40px;
-    margin-left: 70px;
-    margin-top: 20px;
+    padding: 30px;
+    font-size: x-small;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: x-large;
 }
 
 #logo img{
