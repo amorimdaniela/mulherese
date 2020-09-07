@@ -155,12 +155,12 @@ input{
   color: red;
 }
 
-/*footer{
+footer{
     position: fixed;
     bottom:0;
     left:0;
     width: 95%;
-}*/
+}
 
 footer p{
     text-align: end;
