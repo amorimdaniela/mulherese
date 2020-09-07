@@ -1,5 +1,22 @@
 //não implemetado o BD!
 
+//Variáveis Globais
+var etapa1 = false; //Descoberta
+var etapa2 = false; //Ideação
+var etapa3 = false; //Modalidade
+var etapa4 = false; //Validação
+var etapa5 = false; //Implementação
+var etapa6 = false; //Formalização
+
+function trilhaJornada(){
+    if (etapa1){ //DESCOBERTA
+        window.location.href="Ideacao.html";
+    }
+    else{
+        document.getElementById("mensagemErro").style.display = "block";
+    }
+}  
+
 //mostrarSenha ao clicar no olho
 function mostraSenha() {
     var type = document.getElementById('senha').type;
@@ -45,17 +62,6 @@ function salvar(){
         document.getElementById("mensagemErro").style.display = "block";
     }
 }
-
-function trilhaJornada(num){
-    var etapa = num;
-
-    if (etapa == 1){ //DESCOBERTA
-        window.location.href="Ideacao.html";
-    }
-    else{
-        document.getElementById("mensagemErro").style.display = "block";
-    }
-}  
 
 function trilhasSEs(){
     window.location.href="trilhas.html";
