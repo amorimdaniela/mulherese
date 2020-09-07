@@ -1,15 +1,5 @@
 html, body{
-    margin-bottom: 0%;
-    padding: 0%;
-    background-color: #ffffff;
-    color: #4f4f4f;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-
-.bodyMenu{
-    margin-bottom: 30px;
+    margin: 0%;
     padding: 0%;
     background-color: #ffffff;
     color: #4f4f4f;
@@ -20,6 +10,17 @@ html, body{
 
 #texto p{
     font-size: 30px;
+}
+
+#foto{
+    background-color: #db4c77;
+    height: 80px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    padding-top: 40px;
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
 #logo img{
@@ -155,12 +156,12 @@ input{
   color: red;
 }
 
-footer{
+/*footer{
     position: fixed;
     bottom:0;
     left:0;
     width: 95%;
-}
+}*/
 
 footer p{
     text-align: end;
