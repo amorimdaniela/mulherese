@@ -1,25 +1,5 @@
 //não implemetado o BD!
 
-<<<<<<< HEAD
-//Variáveis Globais
-var etapa1 = true; //Descoberta
-var etapa2 = false; //Ideação
-var etapa3 = false; //Modalidade
-var etapa4 = false; //Validação
-var etapa5 = false; //Implementação
-var etapa6 = false; //Formalização
-
-function trilhaJornada(){
-    if (etapa1){ //DESCOBERTA
-        window.location.href="Ideacao.html";
-    }
-    else{
-        document.getElementById("mensagemErro").style.display = "block";
-    }
-}  
-
-=======
->>>>>>> f2c045129cac26ccf1d8140e08b23bf54fac6f3f
 //mostrarSenha ao clicar no olho
 function mostraSenha() {
     var type = document.getElementById('senha').type;
