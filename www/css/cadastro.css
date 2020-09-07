@@ -1,5 +1,5 @@
 html, body{
-    margin-bottom: 30px;
+    margin: 0%;
     padding: 0%;
     background-color: #ffffff;
     color: #4f4f4f;
@@ -10,6 +10,17 @@ html, body{
 
 #texto p{
     font-size: 30px;
+}
+
+#foto{
+    background-color: #db4c77;
+    height: 80px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    padding-top: 40px;
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
 #logo img{
@@ -112,7 +123,23 @@ input{
     box-shadow: 0 0 0.3em #ac2e54;
     font-weight: bold;
     font-size: 20px;
-    padding-top: 500px;
+}
+
+#bemVinda{
+    vertical-align: middle;
+    width: 67%;
+    height: 70px;
+    background-color: #db4c77;
+    color: #ffffff;
+    border-bottom-color:none;
+    border-bottom: 0px 0px;
+    border-radius: 12px;
+    border-bottom: 0%;
+    border: none;
+    box-shadow: 0 0 0.3em #ac2e54;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
 
 #titulo{

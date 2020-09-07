@@ -1,5 +1,15 @@
 html, body{
-    margin: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    background-color: #ffffff;
+    color: #4f4f4f;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.bodyMenu{
+    margin-bottom: 30px;
     padding: 0%;
     background-color: #ffffff;
     color: #4f4f4f;
@@ -22,7 +32,6 @@ html, body{
 
 .formulario{
   margin-top: 15%;
-  margin-bottom: 30px;
 }
 
 .formulario p{

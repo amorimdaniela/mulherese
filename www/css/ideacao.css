@@ -1,5 +1,7 @@
 html, body{
-    margin-bottom: 30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 50px;
     padding: 0%;
     background-color: #ffffff;
     color: #4f4f4f;
@@ -10,6 +12,25 @@ html, body{
 
 #texto p{
     font-size: 30px;
+}
+
+#videos{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#arquivo{
+    font-size: x-small;
+    background-color: #3eb5e1;
+    color: #ffffff;    
+    padding: 10px 100px 10px 100px;
 }
 
 #logo img{
@@ -48,13 +69,6 @@ a{
     display: inline;
     color: inherit;
     text-decoration-line: inherit;
-}
-
-.olho{
-    left: 85%;
-    position: absolute;
-    width: 20px;
-    padding-top: 5px;
 }
 
 input{
@@ -112,7 +126,23 @@ input{
     box-shadow: 0 0 0.3em #ac2e54;
     font-weight: bold;
     font-size: 20px;
-    padding-top: 500px;
+}
+
+#bemVinda{
+    vertical-align: middle;
+    width: 67%;
+    height: 70px;
+    background-color: #db4c77;
+    color: #ffffff;
+    border-bottom-color:none;
+    border-bottom: 0px 0px;
+    border-radius: 12px;
+    border-bottom: 0%;
+    border: none;
+    box-shadow: 0 0 0.3em #ac2e54;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
 
 #titulo{
@@ -129,13 +159,6 @@ input{
   color: red;
 }
 
-/*footer{
-    position: fixed;
-    bottom:0;
-    left:0;
-    width: 95%;
-}*/
-
 footer p{
     text-align: end;
     font-weight: bold;
@@ -149,6 +172,13 @@ footer p{
     width: 100%;
     height: 50px;
     background: #db4c77;
+}
+
+.exp{
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    height: 25px;
 }
 
 .esquerda-rodape{
