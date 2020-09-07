@@ -7,3 +7,12 @@ html, body, footer{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+#logo{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: small;
+}
